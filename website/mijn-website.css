@@ -1,5 +1,27 @@
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(105, 138, 15);
+}
+
+nav a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#about {
+    float: right;
+}
+
 h1 {
-    color: red;
+    margin-top: 60px;
+    color: rgb(101, 0, 0);
 }
 
 a {
@@ -9,3 +31,11 @@ a {
 img {
     border-radius: 50%;
 }
+
+#gekleurd {
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border-style: dashed;
+}
+
